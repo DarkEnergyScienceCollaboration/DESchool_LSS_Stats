@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     35871,        837]
-NotebookOptionsPosition[     34725,        792]
-NotebookOutlinePosition[     35238,        814]
-CellTagsIndexPosition[     35153,        809]
+NotebookDataLength[     34119,        785]
+NotebookOptionsPosition[     33426,        756]
+NotebookOutlinePosition[     33785,        772]
+CellTagsIndexPosition[     33742,        769]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -752,46 +752,10 @@ Pr84bUILKqInhiUbS1DE54vLFAta8Ht9XIY9rQSFGE3oKF6lhcPZ0oT6/RLk
         AbsoluteThickness[0.1]}}}, Automatic}]]], "Output",
  CellChangeTimes->{{3.631496069311123*^9, 3.6314960734545517`*^9}, 
    3.631496570575409*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"?", "comovingDistanceFunction"}]], "Input",
- CellChangeTimes->{{3.631563969490484*^9, 3.631563971197982*^9}}],
-
-Cell[BoxData[
- StyleBox["\<\"comovingDistanceFunction[cosmology,zmax] returns a function \
-that evaluates the comoving distance\\nalong the line of sight to a redshift \
-z <= zmax for the named cosmology. Possible options (with\\ndefaults in \
-parentheses) are:\\n - physical (False) units are Mpc (True) or Mpc/h \
-(False).\\n - inverted (False) return inverse function z(Dc) instead of Dc(z) \
-when True.\\n - pointsPerDecade (20) number of interpolation points to use \
-per decade.\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.631563971745047*^9},
- CellTags->"Info3631535171-8728201"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"Dc", "=", 
-   RowBox[{"comovingDistanceFunction", "[", 
-    RowBox[{"Planck13", ",", "2", ",", 
-     RowBox[{"physical", "\[Rule]", "True"}]}], "]"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.6315639414240303`*^9, 3.6315639833867283`*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Dc", "[", "1", "]"}]], "Input",
- CellChangeTimes->{{3.631563984265688*^9, 3.631563985028181*^9}}],
-
-Cell[BoxData["3412.701884958317`"], "Output",
- CellChangeTimes->{3.631563985303591*^9}]
 }, Open  ]]
 },
 WindowSize->{808, 911},
-WindowMargins->{{Automatic, 149}, {187, Automatic}},
+WindowMargins->{{Automatic, 675}, {155, Automatic}},
 FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 4, \
 2014)",
 StyleDefinitions->"Default.nb"
@@ -800,16 +764,10 @@ StyleDefinitions->"Default.nb"
 
 (* Internal cache information *)
 (*CellTagsOutline
-CellTagsIndex->{
- "Info3631535171-8728201"->{
-  Cell[33583, 762, 601, 9, 131, "Print",
-   CellTags->"Info3631535171-8728201"]}
- }
+CellTagsIndex->{}
 *)
 (*CellTagsIndex
-CellTagsIndex->{
- {"Info3631535171-8728201", 35048, 803}
- }
+CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
@@ -828,16 +786,6 @@ Cell[2016, 62, 431, 10, 28, "Input"],
 Cell[CellGroupData[{
 Cell[2472, 76, 300, 7, 28, "Input"],
 Cell[2775, 85, 30635, 668, 232, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[33447, 758, 133, 2, 28, "Input"],
-Cell[33583, 762, 601, 9, 131, "Print",
- CellTags->"Info3631535171-8728201"]
-}, Open  ]],
-Cell[34199, 774, 274, 6, 28, "Input"],
-Cell[CellGroupData[{
-Cell[34498, 784, 121, 2, 28, "Input"],
-Cell[34622, 788, 87, 1, 28, "Output"]
 }, Open  ]]
 }
 ]
